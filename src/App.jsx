@@ -19,7 +19,7 @@ export default function DomePortfolioSite() {
     {
       title: "Project Building",
       description:
-        "I do not just study technology — I use it to shape concrete projects. I like turning ideas into structured roadmaps, prototypes, and working systems with a clear direction.",
+        "I do not just study technology - I use it to shape concrete projects. I like turning ideas into structured roadmaps, prototypes, and working systems with a clear direction.",
     },
     {
       title: "Technical & Product Thinking",
@@ -56,7 +56,7 @@ export default function DomePortfolioSite() {
     {
       name: "ClientPulse",
       problem:
-        "Independent personal trainers and online coaches often lose clients because renewals, check-ins, and follow-ups are managed in a fragmented and disorganized way.",
+        "Personal trainers and online coaches often lose clients because renewals, check-ins, and follow-ups are managed in a fragmented and disorganized way.",
       solution:
         "Currently developing a reminder and client management micro-SaaS designed to help trainers organize recurring workflows and maintain client relationships more effectively.",
       stack: ["Micro-SaaS", "Product Design", "Workflow Logic", "Client Management"],
@@ -101,7 +101,7 @@ export default function DomePortfolioSite() {
     },
     {
       title: "Frontend",
-      items: ["React", "Tailwind CSS", "Component Design"],
+      items: ["React", "Tailwind CSS", "Next.js", "Component Design", "UI structuring"],
     },
     {
       title: "Backend & APIs",
@@ -109,11 +109,11 @@ export default function DomePortfolioSite() {
     },
     {
       title: "Tools & Platforms",
-      items: ["GitHub", "Docker", "Vercel", "Hardhat", "Linear"],
+      items: ["VS Code","GitHub", "Docker", "Vercel", "Hardhat", "Linear", "MongoDB"],
     },
     {
       title: "Technical Areas",
-      items: ["Software Engineering", "Web Development", "Automation", "AI Workflows", "Blockchain Prototyping"],
+      items: ["Software Engineering", "Web Development", "Project Building", "Blockchain Prototyping"],
     },
   ];
 
@@ -123,14 +123,14 @@ export default function DomePortfolioSite() {
       place: "Zucchetti Centro Sistemi Spa",
       period: "Apr 2026 — Present",
       description:
-        "Working on financial systems and data-driven processes within ERP environments, with a focus on reconciliation logic, data validation, process automation, and real-world software workflows.",
+        "Working on financial systems and data-driven workflows within ERP environments, focusing on reconciliation logic, validation processes, and software support for real operational use cases. This role is giving me direct exposure to applied software engineering in business-critical environments.",
     },
     {
-      title: "CTO",
-      place: "PLUS – Realistic Model",
-      period: "Ongoing",
+      title: "CTO & Technical Lead",
+      place: "PLUS – Realistic Model Startup",
+      period: "Sep 2025 — Present",
       description:
-        "Leading the technical direction of PLUS by shaping product structure, platform vision, and execution logic across software, data, and blockchain-related components.",
+        "Leading the technical direction of PLUS - Realistic Model by defining product structure, shaping platform logic, and translating a complex vision into a credible execution path across software, data, AI, and blockchain-related components. My work includes technical positioning, architecture reasoning, roadmap definition, and the development of project assets such as the website, product presentation, and B2B demo.",
     },
   ];
 
@@ -140,7 +140,7 @@ export default function DomePortfolioSite() {
       place: "Politecnico di Milano",
       period: "Sep 2023 — 2026",
       description:
-        "Building a strong engineering foundation with a focus on software engineering, system design, data-driven architectures, and scalable technical problem solving.",
+        "Developing a strong engineering foundation across software systems, algorithms, architecture, and structured problem solving, while building the analytical mindset needed to turn technical knowledge into real projects and practical execution.",
     },
   ];
 
@@ -203,11 +203,11 @@ export default function DomePortfolioSite() {
           <div className="relative mx-auto grid max-w-7xl gap-14 px-6 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:py-28">
             <div className="max-w-3xl">
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-xs tracking-[0.18em] text-slate-300 uppercase">
-                Software Engineering Student · Politecnico di Milano · Project Builder
+                Software Engineering Student focused on real-world execution
               </div>
 
               <h1 className="max-w-4xl text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-                Software Engineering student building real technical projects and software systems.
+                Software Engineering student building real software systems and technical projects.
               </h1>
 
               <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">
@@ -215,7 +215,7 @@ export default function DomePortfolioSite() {
               </p>
 
               <p className="mt-4 max-w-2xl text-base leading-8 text-slate-400">
-                My work sits at the intersection of software engineering, project building, and technical strategy — with interests across software systems, automation, AI-driven workflows, and startup-oriented execution.
+                My work sits at the intersection of software engineering, project building, and technical strategy - with interests across software systems, automation, AI-driven workflows, and startup-oriented execution.
               </p>
 
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -239,7 +239,7 @@ export default function DomePortfolioSite() {
                 <div className="flex items-center justify-between border-b border-white/10 pb-4">
                   <div>
                     <p className="text-xs uppercase tracking-[0.18em] text-slate-400">Current Positioning</p>
-                    <p className="mt-2 text-lg font-semibold text-white">Technical Profile Snapshot</p>
+                    <p className="mt-2 text-lg font-semibold text-white">Technical Profile Overview</p>
                   </div>
                   <div className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">
                     Open to opportunities
@@ -250,19 +250,19 @@ export default function DomePortfolioSite() {
                   <div>
                     <p className="text-sm text-slate-400">Primary Focus</p>
                     <p className="mt-1 text-base font-medium text-slate-100">
-                      Software Engineering, Project Building, Technical Execution
+                      Software engineering, technical projects, and execution
                     </p>
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Working Style</p>
                     <p className="mt-1 text-base font-medium text-slate-100">
-                      Analytical, structured, technically curious, and execution-oriented
+                      Structured thinking, clear priorities, and implementation-driven work
                     </p>
                   </div>
                   <div>
                     <p className="text-sm text-slate-400">Core Strength</p>
                     <p className="mt-1 text-base font-medium text-slate-100">
-                      Building technical projects with method, structure, and implementation focus
+                      Building technical solutions with real-world relevance and entrepreneurial perspective
                     </p>
                   </div>
                 </div>
@@ -277,19 +277,19 @@ export default function DomePortfolioSite() {
               <div>
                 <p className="text-sm font-medium uppercase tracking-[0.2em] text-cyan-300">About / Who I Am</p>
                 <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
-                  A technical profile focused on building, not just studying.
+                  A technical profile shaped by structure, execution, and entrepreneurial thinking.
                 </h2>
               </div>
 
               <div className="space-y-6 text-base leading-8 text-slate-300">
                 <p>
-                  I am a Computer Engineering student with a strong interest in software systems, practical execution, and the process of turning technical ideas into structured, credible projects.
+                  I’m interested in building technologies that do more than function technically — they should also create clarity, solve relevant problems, and generate real value in concrete contexts.
                 </p>
                 <p>
-                  I enjoy working where engineering meets direction: understanding how a system should be designed, how it should evolve, and how to make it useful in a real context.
+                  That is why I’m particularly drawn to environments where engineering and entrepreneurship meet: places where software is not only developed correctly, but also shaped with direction, purpose, and long-term potential in mind.
                 </p>
                 <p>
-                  What distinguishes me is not only the interest in writing code, but the habit of approaching projects with structure first: roadmap, priorities, implementation path, and long-term direction. I care about clarity, substance, and building with method.
+                  What defines the way I work is structure first. I tend to approach projects by clarifying the roadmap, setting priorities, and turning ideas into execution paths that are credible, organized, and technically grounded.
                 </p>
               </div>
             </div>
@@ -329,7 +329,7 @@ export default function DomePortfolioSite() {
                 </h2>
               </div>
               <p className="max-w-xl text-sm leading-7 text-slate-400">
-                Each project is presented as a real problem-solving effort — not just as a list of technologies.
+                Each project is presented as a structured problem-solving effort, designed to show not only the technologies involved, but also the reasoning, execution, and real context behind the work.
               </p>
             </div>
 
@@ -417,9 +417,6 @@ export default function DomePortfolioSite() {
               <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
                 Certifications that strengthen my technical foundation and professional profile.
               </h2>
-              <p className="mt-4 text-base leading-8 text-slate-300">
-                This section highlights certifications that support my learning path and validate specific technical skills.
-              </p>
             </div>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
