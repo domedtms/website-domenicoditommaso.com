@@ -74,7 +74,7 @@ export default function DomePortfolioSite() {
       outcome:
         "An early-stage product that reflects user-focused problem solving and a practical builder mindset.",
       cta: "Currently in Development",
-      href: "#projects",
+      href: "https://https//coachretain.vercel.app/",
     },
   ];
 
