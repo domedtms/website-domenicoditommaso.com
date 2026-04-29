@@ -1,0 +1,60 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060B14"/>
+      <stop offset="0.55" stop-color="#08111E"/>
+      <stop offset="1" stop-color="#0A1322"/>
+    </linearGradient>
+
+    <radialGradient id="glowMain" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(90 86) rotate(90) scale(64 64)">
+      <stop stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="cyanStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7DEFFF"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+
+    <pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M18 0H0V18" stroke="#94A3B8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#bgGradient)"/>
+  <rect width="180" height="180" rx="40" fill="url(#grid)" opacity="0.12"/>
+
+  <!-- Central glow -->
+  <circle cx="90" cy="86" r="58" fill="url(#glowMain)"/>
+
+  <!-- Elegant technical rings -->
+  <circle cx="90" cy="90" r="54" stroke="#22D3EE" stroke-opacity="0.12" stroke-width="1.2"/>
+  <circle cx="90" cy="90" r="42" stroke="#22D3EE" stroke-opacity="0.10" stroke-width="1"/>
+  <circle cx="90" cy="90" r="66" stroke="#22D3EE" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- Soft monogram glow -->
+  <g opacity="0.18" filter="url(#softBlur)">
+    <rect x="46" y="36" width="88" height="108" rx="28" fill="#22D3EE"/>
+  </g>
+
+  <!-- Monogram D centered -->
+  <g transform="translate(7.2 13.2) scale(2.4)">
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M18 14H31.5C43.8 14 51 21.1 51 32C51 42.9 43.8 50 31.5 50H18V14ZM26 22V42H30.5C38.2 42 43 38.1 43 32C43 25.9 38.2 22 30.5 22H26Z"
+      fill="url(#cyanStroke)"
+    />
+    <path
+      d="M30 19L40 45"
+      stroke="url(#cyanStroke)"
+      stroke-width="4.8"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>

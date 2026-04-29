@@ -1,0 +1,100 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060B14"/>
+      <stop offset="0.5" stop-color="#08111E"/>
+      <stop offset="1" stop-color="#0A1322"/>
+    </linearGradient>
+
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 220) rotate(90) scale(260 420)">
+      <stop stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(915 280) rotate(90) scale(250 250)">
+      <stop stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="cyanStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7DEFFF"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="rgba(148,163,184,0.12)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.22"/>
+
+  <!-- Atmosphere -->
+  <ellipse cx="300" cy="210" rx="260" ry="180" fill="url(#glowLeft)"/>
+  <ellipse cx="915" cy="280" rx="230" ry="230" fill="url(#glowRight)" filter="url(#softBlur)"/>
+
+  <!-- Right-side technical rings -->
+  <circle cx="915" cy="280" r="180" stroke="#22D3EE" stroke-opacity="0.20" stroke-width="1.5"/>
+  <circle cx="915" cy="280" r="145" stroke="#22D3EE" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="915" cy="280" r="215" stroke="#22D3EE" stroke-opacity="0.10" stroke-width="1"/>
+
+  <path d="M780 450L1115 115" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M1035 510L1115 430" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M1040 210L1125 125" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <circle cx="805" cy="470" r="4" fill="#22D3EE"/>
+  <circle cx="1040" cy="510" r="4" fill="#22D3EE"/>
+  <circle cx="1040" cy="210" r="4" fill="#22D3EE"/>
+
+  <!-- Right tile -->
+  <rect x="770" y="135" width="290" height="290" rx="34" fill="#0A0F1A" fill-opacity="0.88"/>
+  <rect x="770.75" y="135.75" width="288.5" height="288.5" rx="33.25" stroke="white" stroke-opacity="0.06" stroke-width="1.5"/>
+
+  <!-- Logo shadow -->
+  <g opacity="0.22" filter="url(#softBlur)">
+    <rect x="800" y="170" width="230" height="220" rx="36" fill="#22D3EE"/>
+  </g>
+
+  <!-- Monogram D centered and larger -->
+  <g transform="translate(774 149) scale(4.1)">
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M18 14H31.5C43.8 14 51 21.1 51 32C51 42.9 43.8 50 31.5 50H18V14ZM26 22V42H30.5C38.2 42 43 38.1 43 32C43 25.9 38.2 22 30.5 22H26Z"
+      fill="url(#cyanStroke)"
+    />
+    <path
+      d="M30 19L40 45"
+      stroke="url(#cyanStroke)"
+      stroke-width="4.8"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- Left text block -->
+  <text x="88" y="210" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-2.4">
+    Domenico
+  </text>
+  <text x="88" y="290" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="-2.4">
+    Di Tommaso
+  </text>
+
+  <text x="92" y="370" fill="#22D3EE" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="600" letter-spacing="-0.8">
+    Software Engineering Student
+  </text>
+
+  <text x="92" y="423" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400">
+    Politecnico di Milano
+  </text>
+
+  <line x1="92" y1="468" x2="220" y2="468" stroke="#22D3EE" stroke-width="3"/>
+
+  <text x="92" y="535" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="400">
+    Building real technical projects and software systems
+  </text>
+</svg>
